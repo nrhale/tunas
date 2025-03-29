@@ -7,12 +7,7 @@
       "command": "npm install",
       "options": {
         "cwd": "${workspaceFolder}/vite-project"
-      },
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": []
+      }
     },
     {
       "label": "npm run dev in vite-project",
@@ -20,12 +15,7 @@
       "command": "npm run dev",
       "options": {
         "cwd": "${workspaceFolder}/vite-project"
-      },
-      "group": {
-        "kind": "build",
-        "isDefault": false
-      },
-      "problemMatcher": []
+      }
     }
   ]
 }
